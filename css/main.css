@@ -1,0 +1,206 @@
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/*First Section, navbar, progress bar*/
+
+#background {
+	background-image: url(../img/background.png);
+	background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+	height: auto;
+}
+
+#gradient {
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#e88883,  #efd789); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e88883,  #efd789); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e88883,  #efd789); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e88883,  #efd789); /* Standard syntax */
+   opacity: 0.9;
+   height: auto;
+}
+
+.firstheader {
+	color: white;
+	font-size: 20px;
+}
+
+.whitetext {
+	color: white;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.section_1_btn {
+	background: transparent;
+	font-size: 12px;
+	padding: 10px 15px;
+	border: 2px solid white;
+	color: white;
+	margin-bottom: 162px;
+}
+
+.whitebtn {
+	color: white;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none !important;
+	background-color: gray;
+    animation-name: example;
+    animation-duration: 4s;
+	-webkit-transform: rotate(-7deg);
+	-moz-transform: rotate(-7deg);
+	-o-transform: rotate(-7deg);
+	-webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+
+button:hover {
+	color: white;
+	text-decoration: none !important;
+	background-color: gray;
+    animation-name: example;
+    animation-duration: 4s;
+	-webkit-transform: rotate(-7deg);
+	-moz-transform: rotate(-7deg);
+	-o-transform: rotate(-7deg);
+	-webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+
+.whiteh2 {
+	color: white;
+	font-size: 40px;
+	letter-spacing: 2px;
+	margin-top: 172px;
+	margin-bottom: 72px;
+}
+
+.whiteh1 {
+	color: white;
+	font-size: 100px;
+}
+
+.whiteh3 {
+	color: white;
+	font-size: 100px;
+	padding: 0;
+	margin: 0;
+}
+
+.whiteh3:after {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 50px;
+	height: 2px;
+	border: 2px solid white;
+	margin-bottom: 56px;
+	margin-top: 76px; 
+}
+
+.progress {
+	height: 3px;
+}
+
+.progress-bar {
+	background-color: #f38181;
+}
+
+li {
+	list-style: none;
+}
+
+.section1 {
+	padding-bottom: 30px;
+}
+
+.navbar-toggle {
+	border: 1px solid gray;
+}
+
+.navbar-toggle .icon-bar {
+	color: gray;
+	border: 1px solid gray;
+}
+
+
+/*Second Section*/
+
+.text_section2 {
+	font-size: 18px;
+	color: #333333;
+	margin-top: 90px;
+}
+
+.h1_section2 {
+	font-size: 24px;
+}
+
+.h1_section2:after {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #f38181;
+	height: 2px;
+	width: 60px;
+	margin-top: 44px;
+	margin-bottom: 50px;
+}
+
+.section2_img {
+	width: 360px;
+	height: 240px;
+}
+
+.p_section2 {
+	color: #999999;
+	margin-bottom: 100px;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+
+.section2_icon {
+	position: relative;
+	bottom: 146px;
+	left: 153px;
+}
+
+.p_row {
+	color: white;
+	position: relative;
+    bottom: 140px;
+    left: 129px;
+    font-size: 12px;
+}
+
+.secondsection {
+	margin-bottom: 90px;
+}
+
+/*Third Section*/
+
+.thirdsection {
+	background-color: #95e1d3;
+	color: white;
+}
+
+.h1_third {
+	font-size: 50px;
+	margin-bottom: 15px;
+}
+
+.col-border {
+    border-left: 1px solid white;
+    padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#col-border {
+	border-right: 1px solid white;
+}
